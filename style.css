@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(222, 184, 184);
+    
+.gabarito-<uniquifier> {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    border: solid black 1px ;
+}
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.image-container div img{
+    width: 200px;
+    height: 250px;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-style: solid;
+    
+    
+    
+}
+.image-container div{
+    flex-basis: 23%;
+    
+    
+}
